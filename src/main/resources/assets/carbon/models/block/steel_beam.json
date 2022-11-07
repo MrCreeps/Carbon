@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "carbon:blocks/missing",
+    "particle": "carbon:blocks/missing"
+  }
+}

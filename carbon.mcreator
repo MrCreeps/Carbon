@@ -1,9 +1,46 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CarbonElementIcon",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon_element_icon"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel"
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_recipe"
+    },
+    {
+      "name": "SteelBeam",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_beam"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.carbon.carbon_element_icon": "Carbon Element Icon",
+      "block.carbon.steel_beam": "Steel Beam",
+      "item.carbon.steel": "Steel"
+    }
   },
   "foldersRoot": {
     "name": "~",

@@ -13,6 +13,9 @@
  */
 package school.mod.carbon;
 
+import school.mod.carbon.init.CarbonModItems;
+import school.mod.carbon.init.CarbonModBlocks;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -42,6 +45,8 @@ public class CarbonMod {
 	public CarbonMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		CarbonModBlocks.REGISTRY.register(bus);
+		CarbonModItems.REGISTRY.register(bus);
 
 	}
 
