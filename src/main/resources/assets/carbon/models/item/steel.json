@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "carbon:items/missing"
+    "layer0": "carbon:items/steel"
   }
 }

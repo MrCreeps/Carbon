@@ -1,5 +1,12 @@
 {
+  "item.carbon.human_spawn_egg": "Human Spawn Egg",
+  "entity.carbon.human": "Human",
+  "block.carbon.toaster": "Toaster",
+  "item.carbon.cocacola": "Coke",
   "item.carbon.carbon_element_icon": "Carbon Element Icon",
-  "block.carbon.steel_beam": "Steel Beam",
-  "item.carbon.steel": "Steel"
+  "block.carbon.gross_emerald": "Gross Emerald",
+  "block.carbon.steel_beam": "Steel Slab",
+  "item.carbon.diamond_dust": "Diamond Dust",
+  "item.carbon.steel": "Steel",
+  "block.carbon.coke": "Coke"
 }

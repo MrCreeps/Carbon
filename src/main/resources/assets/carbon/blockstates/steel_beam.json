@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
+    "type=bottom": {
       "model": "carbon:block/steel_beam"
+    },
+    "type=top": {
+      "model": "carbon:block/steel_beam_top"
+    },
+    "type=double": {
+      "model": "carbon:block/steel_beam_full"
     }
   }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "carbon:custom/toaster",
+  "textures": {
+    "all": "carbon:blocks/toaster",
+    "particle": "carbon:blocks/toaster",
+    "1": "carbon:blocks/toaster"
+  }
+}

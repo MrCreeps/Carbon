@@ -1,8 +1,8 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "missing",
+    "texture": "steelblock",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -11,10 +11,12 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -32,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Steel Beam",
+    "name": "Steel Slab",
     "specialInfo": [],
     "hardness": 15.0,
     "resistance": 40.0,
@@ -47,6 +49,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

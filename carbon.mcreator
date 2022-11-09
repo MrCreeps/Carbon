@@ -31,15 +31,134 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_beam"
+    },
+    {
+      "name": "Toaster",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toaster"
+    },
+    {
+      "name": "ToasterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toaster_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntoineLavoisier",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antoine_lavoisier"
+    },
+    {
+      "name": "GrossEmerald",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gross_emerald"
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust"
+    },
+    {
+      "name": "GrossEmeraldOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gross_emerald_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coke",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke"
+    },
+    {
+      "name": "Cocacola",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocacola"
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.carbon.human_spawn_egg": "Human Spawn Egg",
+      "entity.carbon.human": "Human",
+      "block.carbon.toaster": "Toaster",
+      "item.carbon.cocacola": "Coke",
       "item.carbon.carbon_element_icon": "Carbon Element Icon",
-      "block.carbon.steel_beam": "Steel Beam",
-      "item.carbon.steel": "Steel"
+      "block.carbon.gross_emerald": "Gross Emerald",
+      "block.carbon.steel_beam": "Steel Slab",
+      "item.carbon.diamond_dust": "Diamond Dust",
+      "item.carbon.steel": "Steel",
+      "block.carbon.coke": "Coke"
     }
   },
   "foldersRoot": {
@@ -50,7 +169,7 @@
     "modid": "carbon",
     "modName": "Carbon - Project Mod",
     "version": "1.0.0",
-    "author": "AbdulAdmin, MCreator",
+    "author": "AbdulAdmin, MrCreeps",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -60,8 +179,9 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "school.mod.carbon",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }
